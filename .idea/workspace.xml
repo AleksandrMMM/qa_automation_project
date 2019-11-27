@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278e04a2-b81c-433d-95df-ebf9f1129e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qa_automation_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YandexMarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +46,11 @@
               <item name="qa_automation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="qa_automation_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qa_automation_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa_automation_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -69,8 +67,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\IdeaProjects\qa_automation_project\src" />
       <recent name="C:\Users\aleks\IdeaProjects\qa_automation_project" />
+      <recent name="C:\Users\aleks\IdeaProjects\qa_automation_project\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,12 +93,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574865911059</updated>
-      <workItem from="1574865912277" duration="1286000" />
+      <workItem from="1574865912277" duration="1536000" />
     </task>
+    <task id="LOCAL-00001" summary="my first automation test">
+      <created>1574867448370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574867448370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1286000" />
+    <option name="totallyTimeSpent" value="1536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="915" y="86" width="1600" height="1231" extended-state="0" />
@@ -137,5 +143,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first automation test" />
+    <option name="LAST_COMMIT_MESSAGE" value="my first automation test" />
   </component>
 </project>

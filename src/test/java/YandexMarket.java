@@ -1,12 +1,28 @@
+import org.junit.jupiter.api.*;
+
 import static com.codeborne.selenide.Condition.exist;
+import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
-
-
+@Tag("yandex")
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class YandexMarket {
-    public static void main(String[] args) {
+
+    @BeforeAll
+    static void beforeOurTests() {
+        System.out.println("text before all");
+    }
+
+    @BeforeEach
+    void beforeOurEachTests() {
+        System.out.println("text before each");
+    }
+
+
+    @Test
+    @DisplayName("Positive test")
+    void positiveTest() {
         open("https://market.yandex.ru/");
 
         $("#header-search").val("playstation").pressEnter();
